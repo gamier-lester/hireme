@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	/*overflow: hidden;*/
+}
+
+/*.container {
+	width: 100%;
+	overflow: hidden;
+	position: static;
+}*/
+
+/*landing page*/
+#landing-slogan {
+	width: 50vw;
+	height: 100vh;
+	float: left;
+	position: relative;
+}
+
+#landing-slider {
+	width: 48vw;
+	height: 100vh;
+	float: right;
+	overflow: scroll;
+	scroll-behavior: smooth;
+}
+
+#landing-slogan-title {
+	/*position: absolute;*/
+	/*top: 50%;*/
+	/*left: 50%;*/
+	/*transform: translate(-50%,-50%);*/
+	/*height: 200px;*/
+	width: 400px;
+	border: solid 2px black;
+	padding: 60px 80px 60px 80px;
+	text-align: center;
+}
+
+#landing-slider > a > div {
+	text-align: center;
+	height: 24vh;
+	line-height: 24vh;
+}
+
+#landing-slider > a > .landing-svgs > svg {
+	height: 20px;
+	width: 20px;
+}
+
+/*end of landing page*/
+
+/*about page*/
+
+/*end of about page*/
+
+#asdasd {
+	height: 100vh;
+	overflow-y: scroll; 
+}
