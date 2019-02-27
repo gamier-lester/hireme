@@ -10,6 +10,32 @@ body {
 	background-image: linear-gradient(to right, rgba(152,255,253,0), rgba(61,204,201,1));
 }
 
+#sloganContainer {
+  background-image: url("../images/neongreen-large.jpg"); /* The image used - important! */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 300px; /* Some height */
+}
+
+.text-cutout {
+  background-color: white;
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 80%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
 /*.container {
 	width: 100%;
 	overflow: hidden;
